@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="quizBlock">
+            <h2 class="quiz__title">JavaScript Questions</h2>
+            <h3 class="quiz__subtitle">Check one answer:</h3>
+            <h3 id="question">Question Text</h3>
+            <ul>
+                <li>
+                    <input type="radio" id="a" class="answer" name="answer" />
+                    <label for="a" id="a_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="b" class="answer" name="answer" />
+                    <label for="b" id="b_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="c" class="answer" name="answer" />
+                    <label for=" c" id="c_text">Question</label>
+                </li>
+                <li>
+                    <input type="radio" id="d" class="answer" name="answer" />
+                    <label for="d" id="d_text">Question</label>
+                </li>
+            </ul>
+        </div>
+        <button class="btn__check">Go to Next Question !</button>
+    </div>
+
+    <button class="btn__back">Go back to Galery...</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
